@@ -1,0 +1,205 @@
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 7%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.pli_list a {
+    color: #2abba9;
+
+}
+.pro_in1:hover .pli_list a {
+    color: hsla(0,0%,100%,1.00)!important;
+}
+.pli_list span a {
+    padding-top: 9px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Arial', "微軟正黑體";
+}
+.pli_list a:hover {
+    color: hsla(0,0%,100%,1.00)!important;
+}
+.p_s {
+    border: 5px solid #ededed;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.news_date {
+    background-color: #ffffff;
+    color: #2189a7;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    display: inline-block;
+    border: 1px solid #E3E3E3;
+    margin-bottom: 10px;
+}
+.pli_list_s a {
+    font-family: 'moon', "微軟正黑體";
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 10px;
+    display: block;
+}
+.pin .pli_list {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #2ABBA9;
+    background-color: #FFFFFF;
+}
+.pin .pro_in1:hover .pli_list {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: hsla(0,0%,100%,1.00)!important;
+}
+.pin .pro_in1:hover .pli_list a {
+    color: hsla(0,0%,27%,1.00)!important;
+}
+.zimg .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #2dc3b7;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .4s ease;
+}
+.zimg .carousel-indicators {
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    margin-top: 10px;
+}
+.zimg .carousel-indicators .active {
+    opacity: 1;
+}
+.zoom {
+    display: inline-block;
+    position: relative;
+}
+.zoom img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.zoom img::selection {
+    background-color: transparent;
+}
+#ex2 img:hover {
+    cursor: url(grab.cur), default;
+}
+.slick-slide .pro_model {
+    text-align: center;
+}
+.pro_model {
+    font-family: 'moon', "微軟正黑體";
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000;
+}
+.pro_con_s {
+    font-family: 'moon', "微軟正黑體";
+    color: #6f6f6f;
+}
+.web_title {
+    font-family: 'moon', "微軟正黑體";
+    color: #6f6f6f;
+    font-weight: bold;
+    font-size: 20px;
+    background: #eee;
+    padding-left: 10px;
+    border-left: 4px solid #2abba9;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.web_title:first-letter {
+    color: #2abba9;
+}
+.inquiry_in {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.des {
+    background-color: #F7F7F7;
+    padding-top: 21px;
+    padding-right: 11px;
+    padding-bottom: 21px;
+    padding-left: 11px;
+    box-shadow: 0 0rem 0.2rem rgba(0,0,0,.15)!important;
+    color: #2d2c2d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+.p_s {
+    border: 5px solid #ededed;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 480px) {
+.p_s {
+    border: 5px solid #ededed;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
